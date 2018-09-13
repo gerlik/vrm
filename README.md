@@ -18,6 +18,11 @@ sudo apt-get install php7.2-cli
 
 * [composer](https://getcomposer.org/download/)
 
+* SQLite
+```
+sudo apt-get install php-sqlite3
+```
+
 ### Installing
 
 You need to have composer installed in your computer.
@@ -31,6 +36,7 @@ composer install
 * [Silex](http://silex.sensiolabs.org/) - The web framework used
 * [Composer](https://getcomposer.org/) - Dependency Management
 * [Twig](http://twig.sensiolabs.org/) - Php template engine
+* [Doctrine DBAL](http://docs.doctrine-project.org/projects/doctrine-dbal/en/latest/index.html) - Database connection
 
 ## Versioning
 
