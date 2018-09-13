@@ -5,6 +5,9 @@ namespace BookingApp;
 use Silex\Application as SilexApplication;
 use Silex\Provider\DoctrineServiceProvider;
 use Silex\Provider\TwigServiceProvider;
+use Silex\Provider\FormServiceProvider;
+use Silex\Provider\LocaleServiceProvider;
+use Silex\Provider\TranaslationServiceProvider;
 
 // Custom Application class that hold our application specifix functionality.
 class Application extends SilexApplication
