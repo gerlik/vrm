@@ -67,6 +67,8 @@ class CreateBookingController
 
         $form->handleRequest($request);
 
+        // isValid is not working, used isSubmitted and seems to work
+        // https://github.com/FriendsOfSymfony/FOSUserBundle/issues/2369
         if ($form->isSubmitted()) {
             $data = $form->getData();
 
